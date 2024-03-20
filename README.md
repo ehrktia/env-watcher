@@ -4,6 +4,7 @@ Tired of taking care of your .env files? no more. this script automatically uplo
 
 This can be converted into a Go executable and used to run an automatic service in the background:
 
+
 ## steps for Linux:
 
 1. set up the list of env vars required to connect with AWS
@@ -18,6 +19,8 @@ This can be converted into a Go executable and used to run an automatic service 
 
 
 2. Compile your Go code into a binary executable. Assuming your Go code is in a file named main.go, you can compile it like this:
+
+
 
 ```
 go build -o file_watcher main.go
